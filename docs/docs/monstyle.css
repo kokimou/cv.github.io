@@ -1,0 +1,120 @@
+h1 {
+    font-style: italic;
+    font-size: 40px;
+    font-family: "Arial";
+    text-decoration: underline;
+    text-align: center;
+    color: #1e60bb;
+    font-weight: bold;
+}
+
+header {
+    display: flex;
+    justify-content: left; /* Aligne l'image à gauche horizontalement */
+    align-items: center; /* Centre l'image verticalement dans l'en-tête */
+    height:100px; /* Ajustez la hauteur selon vos besoins */
+    border: 3px solid #000000; /* Bordure noire autour de l'image */
+    border-width: 10px; /* Correction de la propriété pour l'épaisseur de la bordure */
+border-color: #b9f8f9;
+}
+
+header .logo {
+    max-width: 170px; /* Ajuste la taille maximale du logo */
+    height: auto; /* Conserve le rapport hauteur/largeur de l'image */
+
+}
+.style{
+ font-style: italic;
+    font-size: 120px;
+    font-family: "Adventuro";
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;}
+
+body {
+    background-image: url("bak.jpg");
+    text-align: center;
+}
+
+footer {
+    color: #000000; /* Couleur du texte */
+    padding: 20px; /* Espacement interne */
+    text-align: right; /* Centre le texte dans le footer */
+    font-size: 16px; /* Taille de la police */
+    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.1); /* Légère ombre pour un effet de relief */
+}
+
+footer .image {
+    float: right;
+    background-attachment: fixed;
+    width: 30px;
+    height: auto;
+    justify-content: right;
+}
+
+.ecriture {
+   
+    border: 4px groove #000000; /* Bordure avec style groove et couleur noire */
+    text-align: center; /* Centre le texte */
+    font-style: italic; /* Applique l'italique */
+    font-size: x-large; /* Définit une taille de police plus grande */
+    font-family: "Lama Sans Expanded ", sans-serif; /* Assurez-vous que la police "Darine" est disponible ou utilisez une alternative */
+    text-decoration: underline; /* Souligne le texte */
+}
+
+h4{
+    font-style: italic;
+    font-size: medium;
+    font-family: "Lemon Milk";
+    text-decoration: none;
+    text-align: right;
+    color: #000000;
+    font-weight: bold;
+
+
+}
+h2{
+font-style: italic;
+    font-size:x- large;
+    font-family: "Arial";
+    text-decoration: underline;
+    text-align:left;
+    color: #15e0dd;
+    font-weight: bold;}
+h5{
+font-style: italic;
+    font-size:medium;
+    font-family: "Cambria";
+    text-decoration: none;
+    text-align:left;
+    color: #000000;
+font-weight: bold;
+    }
+.ps{
+font-style: italic;
+    font-size:x- large;
+    font-family: "Cambria";
+    text-decoration: none;
+    text-align:left;
+    color: #000000;
+    }
+
+.ttr{
+    float: right;
+    background-attachment: fixed;
+    width:200px;
+    height: auto;
+    justify-content: right;
+}
+.khkh{
+  text-align: center;
+  font-style: italic;
+    font-size: large;
+    font-family: "Arial";
+}
+.ss{
+  text-align: center;
+}
+
+
